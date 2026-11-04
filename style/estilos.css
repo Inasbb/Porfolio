@@ -1,0 +1,63 @@
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fuentes/Montserrat-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family:'Inas';
+    src: url(../fuentes/PinyonScript-Regular.ttf) format('truetype')
+}
+
+body {
+    background-color: #655049;
+    margin: 0%;
+}
+
+
+
+
+#img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+
+}
+
+
+/*CABECERA*/
+
+#cabecera {
+    background-color: #e9e4e0;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+}
+
+/*NAVEGACIÓN*/
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+
+
+}
+
+nav a {
+    color: #221103;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+}
+
+nav a:focus {
+    outline: 3px solid #b39186;
+    color: #221103;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+}
