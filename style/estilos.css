@@ -4,8 +4,17 @@
 }
 
 @font-face {
-    font-family: 'Inas';
+    font-family: 'Pinyon';
     src: url(../fuentes/PinyonScript-Regular.ttf) format('truetype')
+}
+@font-face {
+    font-family: 'League';
+    src: url(../fuentes/LeagueSpartan-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fuentes/Oswald-VariableFont_wght.ttf) format('truetype')
 }
 
 body {
@@ -14,8 +23,10 @@ body {
   
 }
 
+
+
 H1 {
-    font-family: 'Montserrat';
+    font-family: 'Oswald';
     color: #e9e4e0;
     font-size: 100px;
     align-items: center;
@@ -79,12 +90,13 @@ nav a:focus {
 }
 
 
-
+/*PORTADA*/
 .porfolio {
 
     background-color: #221103;
     display: flex;
     justify-content: center;
+    height: 500px;
       
 
 }
