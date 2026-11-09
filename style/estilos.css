@@ -1,12 +1,28 @@
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserratgrueso';
     src: url(../fuentes/Montserrat-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Montserratfino';
+    src: url(../fuentes/Montserrat-Thin.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Montserrat2';
+    src: url(../fuentes/Montserrat-ExtraLight.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Montserratdoblado';
+    src: url(../fuentes/Montserrat-Italic-VariableFont_wght.ttf) format('truetype')
 }
 
 @font-face {
     font-family: 'Pinyon';
     src: url(../fuentes/PinyonScript-Regular.ttf) format('truetype')
 }
+
 @font-face {
     font-family: 'League';
     src: url(../fuentes/LeagueSpartan-VariableFont_wght.ttf) format('truetype')
@@ -17,36 +33,58 @@
     src: url(../fuentes/Oswald-VariableFont_wght.ttf) format('truetype')
 }
 
+
+
 body {
     background-color: #655049;
     margin: 0%;
-  
+
 }
 
 
 
-H1 {
+h1 {
     font-family: 'Oswald';
     color: #e9e4e0;
     font-size: 100px;
     align-items: center;
-    
+    margin: 5%;
+
 }
-H2 {
-    font-family: 'Montserrat';
+
+h2 {
+    font-family: 'Oswald';
     color: #e9e4e0;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
-    align-items: center; justify-content: left;
-   
+    align-items: center;
+    justify-content: left;
+    margin: 5%;
+
 }
+
+h3 {
+    font-family: 'Montserratfino';
+    color: #e9e4e0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5%;
+    height: 10%;
+    
+
+}
+
 
 
 
 #img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+
+    max-width: 600px;
+    height: 700px;
+
+
 
 
 }
@@ -58,10 +96,11 @@ H2 {
     background-color: #e9e4e0;
     padding: 10px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     padding-right: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Montserratgrueso';
 }
+
 
 /*NAVEGACIÓN*/
 
@@ -97,6 +136,6 @@ nav a:focus {
     display: flex;
     justify-content: center;
     height: 500px;
-      
+
 
 }
