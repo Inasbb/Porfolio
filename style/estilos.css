@@ -97,7 +97,7 @@ h3 {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
+    padding-right: 10px;
     font-family: 'Montserratgrueso';
 }
 
@@ -134,8 +134,12 @@ nav a:focus {
 
     background-color: #221103;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     height: 500px;
+    width: 100%;
+    padding-left: 5%;
 
 
 }
+
+#profesiones { width: 100%;}
