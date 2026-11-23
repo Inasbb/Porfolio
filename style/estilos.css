@@ -72,7 +72,7 @@ h3 {
     justify-content: left;
     margin: 5%;
     height: 10%;
-    
+
 
 }
 
@@ -99,8 +99,12 @@ h3 {
     justify-content: space-between;
     padding-right: 10px;
     font-family: 'Montserratgrueso';
+    align-items: center;
 }
 
+#nombre {
+    padding: 10px
+}
 
 /*NAVEGACIÓN*/
 
@@ -113,11 +117,12 @@ nav {
 
 }
 
-nav a {
+a {
     color: #221103;
     text-decoration: none;
     margin: 10px;
     padding: 8px;
+
 }
 
 nav a:focus {
@@ -142,4 +147,21 @@ nav a:focus {
 
 }
 
-#profesiones { width: 100%;}
+#profesiones {
+    width: 100%;
+}
+
+/*CARPETAS*/
+.carpetas img{
+    width: 80px;
+}
+.carpetas {
+
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    width: 50%;
+    max-width: 40%;
+    height: auto;
+
+}
